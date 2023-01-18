@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputer Store App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container">
+
+            <div class="column">
+                <h2>Joe Banker</h2>
+                <label>Balance</label>
+                <label id="bankBalance"></label>
+
+                <span id="showLoan"></span>
+                <p>Outstanding Loan: <label id="loanBalance"></label></p>
+                
+                <div>
+                    <span><button id="getALoanButton" class="GetALoanButton">Get a loan</button></span>
+                </div>
+            </div>
+            <div class="column">
+                <div>
+                    <h2>Work</h2>                    
+                    <label>Pay</label>
+                    <label id="workBalance">0</label>
+                </div>
+                <span><button id="bankButton" class="BankButton">Bank</button></span>
+                <span><button id="workButton" class="WorkButton">Work</button></span>
+                <span><button id="repayLoanButton" class="RepayLoanButton hidden">Repay Loan</button></span>
+            </div>
+            <div class="column">
+                <h2>Laptops</h2> 
+                <select name="products" id="products"></select>
+                <h3>Features:</h3>
+                <ul id="features"></ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="flex-container">
+                <div class="column nomargin">
+                    <img id="laptopImage" src="">
+                </div>
+                <div class="column nomargin">
+                    <h3 id="laptopTitle"></h3>
+                    <text id="laptopDescription"></text>
+                </div>
+                <div class="column nomargin">
+                    <span id="showPrice"></span>
+                    <label id="laptopPrice"></label>
+                    <label id="laptopPriceValue" class="hidden"></label>
+                    <button id="buyButton" class="BuyButton">Buy Now</button>
+                    <label id="accepted"></label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="products.js" type="module"></script>
+</body>
+</html>

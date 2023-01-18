@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;   
+}
+
+.column {
+    background-color: lightblue;
+    padding: 20px;
+    flex: 33%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.nomargin {
+    margin: 0px;
+}
+
+.row {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    background: white;
+    color: blacks;
+}
+
+span {
+    padding: auto;
+    text-align: right;
+}
+
+span {
+    font-weight: bold;
+    padding: auto;
+    text-align: left;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.GetALoanButton{
+    background-color: lightgreen;
+    border-color: bisque;
+    padding: 0.3;
+}
+
+.BankButton{
+    background-color: yellow;
+    border-color: bisque;
+    padding: 0.3rem;
+}
+
+.WorkButton{
+    background-color: blue;
+    border-color: bisque;
+    padding: 0.3rem;
+}
+
+.RepayLoanButton{
+    background-color: red;
+    border-color: bisque;
+    padding: 0.3;
+}
+
+.BuyNowButton{
+    background-color: violet;
+    border-color: bisque;
+    padding: 0.3;
+}
